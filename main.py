@@ -11,5 +11,5 @@ count = 0
 for book in books:
     count += 1
     print( "-" * 20, f"Книга {count}" , "-" * 20,)
-    print(f"Название: {book["title"]}, Автор: {book["author"]},")
-    print("-" * 20, f"{book["year"]}" , "-" * 20)
+    print(f"Название: {book['title']}, Автор: {book['author']},")
+    print("-" * 20, f"{book['year']}" , "-" * 20)
